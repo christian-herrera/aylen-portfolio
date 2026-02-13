@@ -10,17 +10,15 @@ export default function HomePage() {
     const [logo, setLogo] = useState(null);
     const [loading, setLoading] = useState(true);
 
+    // ==> Utilidad: Carga dinamica de la imagen
     useEffect(() => {
-        const loadImage = async () => {
-            setLoading(true);
-            const img = await import("../../assets/web_profile.png");
-            setLogo(img.default);
-
-            setTimeout(() => {
-                setLoading(false);
-            }, 1500);
-        };
-        loadImage();
+        Promise.all([
+            import("../../assets/web_profile.png"),
+            new Promise((res) => setTimeout(res, 1500)), // Simula un retardo mínimo
+        ]).then(([importLogo]) => {
+            setLogo(importLogo.default);
+            setLoading(false);
+        });
     }, []);
 
 
