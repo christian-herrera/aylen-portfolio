@@ -4,7 +4,7 @@
 <h1 align="center">Portfolio - Aylén Herrera</h1>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/christian-herrera/aylen-portfolio)
-![Static Badge](https://img.shields.io/badge/version-v0.1.0-blue)
+![Static Badge](https://img.shields.io/badge/version-v0.1.1-blue)
 
 ![GitHub License](https://img.shields.io/github/license/christian-herrera/aylen-portfolio?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/christian-herrera/aylen-portfolio?style=for-the-badge)
