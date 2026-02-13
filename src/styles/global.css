@@ -1,0 +1,21 @@
+/* Variables CSS para colores y espaciados */
+:root {
+    --primary-color: #8b5a8e;
+    --secondary-color: #e88da1;
+    --accent-color: #f4a6b8;
+    --tertiary-color: #a1c9d4;
+    --text-color: #4a4a4a;
+    --text-light: #6b6b6b;
+    --bg-light: #fef8f9;
+    --bg-gradient-start: #fef5f8;
+    --bg-gradient-end: #f0e5f1;
+    --border-radius: 12px;
+    --shadow-sm: 0 2px 8px rgba(232, 141, 161, 0.15);
+    --shadow-md: 0 4px 16px rgba(232, 141, 161, 0.20);
+    --shadow-lg: 0 8px 24px rgba(232, 141, 161, 0.25);
+
+    /* Tamaños de la foto de perfil */
+    --profile-size-web: 300px;
+    --profile-size-tablet: 300px;
+    --profile-size-mobile: 280px;
+}
